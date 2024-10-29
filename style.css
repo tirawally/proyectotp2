@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(230, 190, 190);
+    background-image: url("barber-shears-line-9ef54b.webp");
+    background-repeat: repeat;
+    background-size: 60px;
+}
+
+.center h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+.fotoo {
+    margin-left: 650px;
+}
+
+.header {
+    background-color: var(--primary);
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(135, 10, 133);
+}
+
+.logo {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(24, 22, 22);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(10, 245, 174);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: var(--secondary);
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.hero {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+.titulo {
+    margin-left: 40%;
+}
+
+.container-foto {
+    display: flex;
+    justify-content: center;
+}
+
+.container-foto2 {
+    display: flex;
+    justify-content: center;
+}
+
+.F1 {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.F2 {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.F3 {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.F4 {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.F5 {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.F6 {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.container-redes {
+    margin-left: 600px;
+}
+
+.btn {
+    background: var(--accent);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+.contact {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 44, 39);
+}
+
+.des {
+    display: none;
+    list-style: none;
+    translate: -35px 0px;
+}
+
+.servicios:hover .des {
+    display: block;
+    background-color: #120000;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.des2 {
+    display: none;
+    list-style: none;
+    translate: -35px 0px;
+}
+
+.precios:hover .des2 {
+    display: block;
+    background-color: #120000;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.des3 {
+    display: none;
+    list-style: none;
+    translate: -35px 0px;
+}
+
+.mas:hover .des3 {
+    display: block;
+    background-color: #120000;
+    border-radius: 8px;
+    padding: 20px;
+}
