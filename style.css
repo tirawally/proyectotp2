@@ -238,7 +238,7 @@ p {
     translate: -35px 0px;
 }
 
-.mas:hover .des3 {
+.turnos:hover .des3 {
     display: block;
     background-color: #ffffff;
     border-radius: 8px;
