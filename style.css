@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(230, 190, 190);
+    background-color: rgb(255, 255, 255);
     background-image: url("barber-shears-line-9ef54b.webp");
     background-repeat: repeat;
     background-size: 60px;
@@ -13,23 +13,25 @@ body {
 }
 
 .fotoo {
-    margin-left: 650px;
+    display:block;
+    margin:auto;
+    border: 5px solid white;
 }
 
 .header {
     background-color: var(--primary);
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: rgb(135, 10, 133);
+    background-color: rgb(0, 0, 0);
 }
 
 .logo {
     text-decoration: none;
     text-align: center;
-    color: rgb(24, 22, 22);
+    color: rgb(0, 0, 0);
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    background-color: rgb(10, 245, 174);
+    background-color: rgb(255, 255, 255);
 }
 
 .nav {
@@ -38,6 +40,7 @@ body {
     gap: 2rem;
     padding: 1rem;
     background-color: var(--secondary);
+    color: white;
 }
 
 .nav a {
@@ -72,6 +75,10 @@ p {
     margin-left: 40%;
 }
 
+.demo{
+    text-align: center;
+}
+
 .container-foto {
     display: flex;
     justify-content: center;
@@ -83,38 +90,56 @@ p {
 }
 
 .F1 {
-    width: 350px;
+    width: 300px;
+    height: 275px;
     margin: 0 10px;
+    margin-top: 10px;
+    border: 5px solid black;
 }
 
 .F2 {
-    width: 350px;
+    width: 300px;
+    height: 275px;
     margin: 0 10px;
+    margin-top: 10px;
+    border: 5px solid black;
 }
 
 .F3 {
-    width: 350px;
+    width: 300px;
+    height: 275px;
     margin: 0 10px;
+    margin-top: 10px;
+    border: 5px solid black;
 }
 
 .F4 {
-    width: 350px;
+    width: 300px;
+    height: 275px;
     margin: 0 10px;
+    margin-top: 10px;
+    border: 5px solid black;
 }
 
 .F5 {
-    width: 350px;
+    width: 300px;
+    height: 275px;
     margin: 0 10px;
+    margin-top: 10px;
+    border: 5px solid black;
 }
 
 .F6 {
-    width: 350px;
+    width: 300px;
+    height: 275px;
     margin: 0 10px;
+    margin-top: 10px;
+    border: 5px solid black;
+    
 }
 
-.container-redes {
-    margin-left: 600px;
-}
+
+
 
 .btn {
     background: var(--accent);
@@ -133,14 +158,53 @@ p {
     background: #c0392b;
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .contact {
     background: var(--primary);
     color: white;
     text-align: center;
-    background-color: rgb(49, 44, 39);
+    background-color: rgb(0, 0, 0);
+    justify-content: left;
+    width: 640px;
+    
+}
+
+.redes {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    justify-content: right;  
+    width: 640px;
+     
+}
+
+@keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+
+.logo-ig{
+    margin-right: 40px;
+    animation: move 1s infinite alternate-reverse;
+}
+
+.logo-tiktok{
+    margin-left: 40px;
+    animation: move 1s infinite alternate-reverse;
 }
 
 .des {
+    color: black;
     display: none;
     list-style: none;
     translate: -35px 0px;
@@ -148,12 +212,13 @@ p {
 
 .servicios:hover .des {
     display: block;
-    background-color: #120000;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
 }
 
 .des2 {
+    color: black;
     display: none;
     list-style: none;
     translate: -35px 0px;
@@ -161,12 +226,13 @@ p {
 
 .precios:hover .des2 {
     display: block;
-    background-color: #120000;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
 }
 
 .des3 {
+    color: black;
     display: none;
     list-style: none;
     translate: -35px 0px;
@@ -174,7 +240,7 @@ p {
 
 .mas:hover .des3 {
     display: block;
-    background-color: #120000;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
 }
