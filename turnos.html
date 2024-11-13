@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos</title>
+</head>
+<link rel="stylesheet" href="style2.css">
+
+<body>
+    <div class="container">
+        <div class="booking-form">
+            <h2>Selecciona tu servicio y horario</h2>
+            
+            <div class="form-group">
+                <label>Servicios disponibles:</label>
+                <div class="services-grid">
+                    <div class="service-card" data-service="corte">
+                        <h3>Corte</h3>
+                        <p>$1500</p>
+                    </div>
+                    <div class="service-card" data-service="color">
+                        <h3>Color</h3>
+                        <p>$3000</p>
+                    </div>
+                    <div class="service-card" data-service="peinado">
+                        <h3>Peinado</h3>
+                        <p>$1200</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" min="" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Hora:</label>
+                <select id="time" required>
+                    <option value="">Selecciona un horario</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nombre completo:</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" required>
+            </div>
+
+            <button onclick="bookAppointment()">Reservar Turno</button>
+
+            <div id="confirmation" class="confirmation">
+                ¡Turno reservado con éxito! Te enviaremos un mensaje de confirmación.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
