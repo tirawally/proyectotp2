@@ -133,9 +133,47 @@ p {
     background: #c0392b;
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 .contact {
     background: var(--primary);
     color: white;
     text-align: center;
-    background-color: rgb(49, 44, 39);
+    background-color: rgb(0, 0, 0);
+    justify-content: left;
+    width: 640px;
+    
+}
+
+.redes {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    justify-content: right;  
+    width: 640px;
+     
+}
+
+@keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(5px);
+    }
+  }
+
+.logo-ig{
+    margin-right: 40px;
+    animation: move 1s infinite alternate-reverse;
+}
+
+.logo-tiktok{
+    margin-left: 40px;
+    animation: move 1s infinite alternate-reverse;
 }
